@@ -1,0 +1,77 @@
+.tx-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tx-table th, .tx-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tx-table th {
+  background-color: #f0f4ff;
+}
+.tx-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tx-form input, .tx-form select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 120px;
+}
+
+.tx-form button {
+  background-color: #0b5fa5;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tx-form button:hover {
+  background-color: #094f8a;
+}
+
+.tx-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tx-table th, .tx-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tx-table th {
+  background-color: #eaf1ff;
+}
+
+.tx-table button {
+  margin-right: 5px;
+  background: #0b5fa5;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tx-table button:hover {
+  background: #084f8a;
+}
